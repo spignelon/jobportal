@@ -185,3 +185,7 @@ curl "http://127.0.0.1:3001/search-jobs?query=python%20developer&location=Bangal
 - [JobSpy](https://github.com/Bunsly/JobSpy) for job scraping
 - [pypdf](https://pypdf.readthedocs.io/) and [Pydantic](https://docs.pydantic.dev/)
 - [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), [React Router](https://reactrouter.com/), [Lucide](https://lucide.dev/)
+
+## License
+
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
