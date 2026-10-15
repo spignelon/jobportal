@@ -16,6 +16,7 @@ load_dotenv()
 
 # Initialize Gemini client
 client = genai.Client(api_key=os.getenv("GEMINI"))
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -94,7 +95,7 @@ def get_score():
     
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model=GEMINI_MODEL,
             config=types.GenerateContentConfig(
                 system_instruction="You are a resume analyzer that provides detailed feedback on job suitability. You always return clean JSON without markdown formatting or explanation."
             ),

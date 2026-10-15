@@ -1,0 +1,24 @@
+Senior Backend Engineer (Python) - Nimbus Labs, Bengaluru (Hybrid)
+
+About the role
+Nimbus Labs builds a cloud-based logistics platform used by 400+ retailers. We are looking for a Senior Backend Engineer to design and scale the services that power real-time shipment tracking.
+
+Responsibilities
+- Design, build and maintain scalable REST APIs and microservices in Python (FastAPI / Django).
+- Own services end-to-end: design, deployment, monitoring and on-call.
+- Optimise PostgreSQL queries and design efficient data models; work with Redis and Kafka for caching and event streaming.
+- Build and maintain CI/CD pipelines and containerised deployments on AWS (ECS/EKS, RDS, S3, Lambda).
+- Mentor junior engineers and lead code reviews.
+
+Requirements
+- 5+ years of professional backend development experience, with strong Python skills.
+- Hands-on experience with FastAPI or Django, and PostgreSQL.
+- Experience with AWS and Docker; working knowledge of Kubernetes and Terraform.
+- Experience with message queues (Kafka / RabbitMQ) and distributed systems design.
+- Strong testing practices (pytest, integration tests) and CI/CD (GitHub Actions / Jenkins).
+- Excellent communication and collaboration skills.
+
+Nice to have
+- Experience with observability tools (Prometheus, Grafana, Datadog).
+- Exposure to GraphQL or gRPC.
+- B.Tech / B.E. in Computer Science or equivalent.
